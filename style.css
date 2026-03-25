@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #111;
+  color: white;
+  font-family: Arial;
+}
+
+canvas {
+  display: block;
+}
+
+.ui {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.controls {
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  font-size: 16px;
+  margin: 5px;
+  padding: 12px;
+  border-radius: 10px;
+}
